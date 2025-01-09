@@ -1,0 +1,15 @@
+{
+  "exclude": ["**/node_modules"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noEmit": true,
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "lib": ["es2020"],
+    "target": "ES2018"
+  }
+}
